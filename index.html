@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+
+    <!--Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header id="event-description">
+      <div id="disclaimer">
+        <h2>Barbearia Gama</h2>
+        <p>Venha conhecer a melhor Barbeariade Natal</p>
+      </div>
+      <div id="subscription-form">
+        <p>Preencha o formulario para agendar o serviço</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Digite seu nome"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu @Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              placeholder="Número do whatsapp"
+            />
+          </div>
+          <div class="form-group">
+            <label for="date">Data</label>
+            <input type="date" name="date" id="date" />
+          </div>
+          <div class="form-group">
+            <select name="Serviços">
+              <option value="" disable selected>Selecione</option>
+              <option value="cabelo">Cabelo</option>
+              <option value="barba">Barba</option>
+              <option value="cabelo+barba">Cabele e Barba</option>
+            </select>
+          </div>
+          <input type="submit" class="bnt" value="ENVIAR" />
+        </form>
+      </div>
+    </header>
+
+    <section id="key-service">
+      <h2>Serviços:</h2>
+      <div class="servcs">
+        <div class="serv">
+          <div id="servc-1" class="servc-img"></div>
+          <p>Corte de Cabelo -R$20,00</p>
+        </div>
+        <div class="serv">
+          <div id="servc-2" class="servc-img"></div>
+          <p>Barba - R$15,00</p>
+        </div>
+
+        <div class="serv">
+          <div id="servc-3" class="servc-img"></div>
+          <p>Barba e Cabelo-R$30,00</p>
+        </div>
+      </div>
+    </section>
+    <section id="location">
+      <div id="address">
+        <i class="bi bi-geo-alt-fill"></i>
+        <div id="address-details">
+          <p>Rua da Barbearia</p>
+          <p>bairro 1</p>
+          <p>Abertura:8hr</p>
+        </div>
+      </div>
+      <div id="about-location">
+        <h3>Local de Destaque</h3>
+        <p>Ótima Localidade , temos local de estacionamento.</p>
+      </div>
+    </section>
+    <section class="about" id="about-1">
+      <img src="imagens/kamile-leonaviciute.jpg" alt="" />
+      <div class="about-detail">
+        <h3>Sobre Nós:</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt qui
+          tempore facere, dolore expedita voluptatum distinctio numquam velit
+          minus illum fugit itaque. Ipsum eius quia assumenda perferendis ea.
+          In, architecto.
+        </p>
+      </div>
+    </section>
+    <section id="cta">
+      <h3>Goustou?Marca um horário com a gente</h3>
+      <button class="bnt">Solicitar Agendamento</button>
+    </section>
+    <footer id="footer">
+      <h3>Barbearia Gama</h3>
+      <p>Um barbeiro que ama o que faz sempre será melhor que qualquer outro</p>
+      <p><span>Entre em contato:</span> oi@gama.com</p>
+      <p><span>Ou pelo telefone:</span> (99)99999-9999</p>
+    </footer>
+  </body>
+</html>
